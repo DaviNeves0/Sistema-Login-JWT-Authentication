@@ -7,7 +7,8 @@ const app = express();
 app.use(bodyParser.json()); //para entender json
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(cors())
-//urlencoded para ele entender parametros via url
+
+//urlencoded para ele entender parâmetros via url
 //app.listen = porta que eu quero ouvir
 
 require('./app/controllers/index')(app);
