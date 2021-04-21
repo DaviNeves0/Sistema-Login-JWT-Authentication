@@ -11,7 +11,7 @@ app.use(cors())
 //urlencoded para ele entender parâmetros via url
 //app.listen = porta que eu quero ouvir
 
-require('./app/controllers/index')(app);
+require('./app/controllers/index')(app)
 
 console.log('api ok')
 
